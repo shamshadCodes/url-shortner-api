@@ -1,0 +1,27 @@
+GET http://localhost:3000/api/urls/
+
+###
+
+GET http://localhost:3000/api/urls/64417d4d9b7c808c91b8e595
+
+###
+
+POST http://localhost:3000/api/urls
+Content-Type: application/json
+
+{
+    "longUrl": "http://123.example.com"
+}
+
+###
+
+DELETE http://localhost:3000/api/urls/64417ad43626a39133471fa2
+
+###
+
+PATCH http://localhost:3000/api/urls/64417b03e5a6fda5935a3a8a
+Content-Type: application/json
+
+{
+    "longUrl": "http://191.example.com"
+}
